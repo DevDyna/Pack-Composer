@@ -1,2 +1,2 @@
 # SD-packager
-Scaffolding Delta unpackager
+Scaffolding Delta batch unpackager to easier upload on CurseForge files
