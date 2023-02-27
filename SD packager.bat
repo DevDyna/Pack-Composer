@@ -16,8 +16,8 @@ cd ..
 ::from package
 robocopy /E Scaffolding-Delta-main\package\fast SD\Pack-fast
 ::from modules
-robocopy /E Scaffolding-Delta-main\emit\fast\assets SD\emit-fast\assets
-robocopy /E Scaffolding-Delta-main\distance\fast\assets SD\distance-fast\assets
+robocopy /E Scaffolding-Delta-main\emit\fast\assets SD\Pack-fast\assets
+robocopy /E Scaffolding-Delta-main\distance\fast\assets SD\Pack-fast\assets
 ::copy files to SD/Pack-fancy
 ::from package
 robocopy /E Scaffolding-Delta-main\package\fancy SD\Pack-fancy
