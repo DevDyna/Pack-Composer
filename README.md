@@ -1,4 +1,16 @@
-# SD-packager
-Scaffolding Delta batch unpackager to easier upload on CurseForge files
-#
-https://github.com/DevDyna/Scaffolding-Delta
+
+# Pack Composer
+
+Description:
+Batch packager/unpackager to easier upload on CurseForge files
+Composer available:
+
+____
+Scaffolding Delta
+
+Relation: https://github.com/DevDyna/Scaffolding-Delta
+____
+Vanilla Expansion
+
+Relation: https://github.com/DevDyna/NaN
+____
