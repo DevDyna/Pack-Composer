@@ -10,7 +10,7 @@ Scaffolding Delta
 
 Relation: https://github.com/DevDyna/Scaffolding-Delta
 ____
-Vanilla Expansion
+Texture Expansion
 
 Relation: https://github.com/DevDyna/NaN
 ____
