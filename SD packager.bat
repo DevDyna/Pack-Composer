@@ -1,26 +1,27 @@
 @echo off
 ::create directory
-mkdir SD
-::packages
-cd SD
-mkdir Pack-fast
-mkdir Pack-fancy
+mkdir SD\Pack-fast
+mkdir SD\Pack-fancy
+
 ::modules
-mkdir CTM
-mkdir emit-fast
-mkdir emit-fancy
-mkdir distance-fast
-mkdir distance-fancy
-cd ..
+mkdir SD\CTM
+mkdir SD\emit-fast
+mkdir SD\emit-fancy
+mkdir SD\distance-fast
+mkdir SD\distance-fancy
+
 ::copy files to SD/Pack-fast
 ::from package
 robocopy /E package\fast SD\Pack-fast
+
 ::from modules
 robocopy /E emit\fast\assets SD\Pack-fast\assets
 robocopy /E distance\fast\assets SD\Pack-fast\assets
+
 ::copy files to SD/Pack-fancy
 ::from package
 robocopy /E package\fancy SD\Pack-fancy
+
 ::from modules
 robocopy /E ctm\assets SD\CTM\assets
 robocopy /E distance\fancy\assets SD\Pack-fancy\assets
