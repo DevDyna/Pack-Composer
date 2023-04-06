@@ -1,7 +1,9 @@
 @echo off
 ::create directory
-mkdir VE
-robocopy /E Vanilla-Expansion-main\PlayerUtilities\assets VE\assets
-robocopy /E Vanilla-Expansion-main\RadiantRedstone\assets VE\assets
-robocopy /E Vanilla-Expansion-main\EnhancedNature\assets VE\assets
-robocopy /E Vanilla-Expansion-main\VanillaExpansion\ VE
+mkdir VE\assets
+::copy all assets from other modules
+robocopy /E player-utilities\assets VE\assets
+robocopy /E radiant-redstone\assets VE\assets
+robocopy /E better-nature\assets VE\assets
+::copy banner
+robocopy /E vanilla-expansion VE
