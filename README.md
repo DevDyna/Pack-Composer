@@ -12,5 +12,5 @@ Relation: https://github.com/DevDyna/Scaffolding-Delta
 ____
 Vanilla Expansion
 
-Relation: https://github.com/DevDyna/NaN
+Relation: https://github.com/DevDyna/Vanilla-Expansion
 ____
