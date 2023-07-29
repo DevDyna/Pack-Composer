@@ -14,3 +14,6 @@ Vanilla Expansion
 
 Relation: https://github.com/DevDyna/Vanilla-Expansion
 ____
+ElementZ - Elementalcraft Addon
+
+Relation: https://github.com/DevDyna/ElementZ
