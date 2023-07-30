@@ -1,5 +1,6 @@
 
 # Pack Composer
+[NO MORE USED]
 
 Description:
 Batch packager/unpackager to easier upload on CurseForge files
