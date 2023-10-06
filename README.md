@@ -1,6 +1,4 @@
-
-# Pack Composer
-[NO MORE USED]
+#  [DEPRECATED]
 
 Description:
 Batch packager/unpackager to easier upload on CurseForge files
